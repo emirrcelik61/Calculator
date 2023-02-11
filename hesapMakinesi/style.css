@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+table{
+    background-color: gray;
+    border: 2px solid orange;
+    border-spacing: 10px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+table .btn{
+    width: 80px;
+    height: 40px;
+    color: orange;
+    background-color: black;
+    line-height: 300%;
+    font-size: 140%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+table .btn:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+}
+#islem,#gosterge{
+    padding: 2px;
+    text-align: right;
+    background-color: rgb(240, 191, 100);
+    color: black;
+    border-radius: 10px;
+}
+#islem{
+    height: 50px;
+    font-size: 250%;
+}
